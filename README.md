@@ -1,59 +1,57 @@
-# SystematicReviewSystem
+# Sistema Web para Revisiones Sistemáticas con IA
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.7.
+Este sistema permite gestionar y realizar revisiones sistemáticas de literatura científica, apoyando al investigador en la organización, búsqueda y análisis de artículos. Utiliza inteligencia artificial para facilitar la selección y evaluación de estudios relevantes.
 
-## Development server
+## 🚀 Características principales
 
-To start a local development server, run:
+- **Autenticación de usuarios**  
+  Acceso seguro mediante credenciales de demostración.
 
-```bash
-ng serve
-```
+- **Panel principal**  
+  Visualización y gestión de proyectos de revisión sistemática.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **Soporte para IA**  
+  Herramientas inteligentes para filtrar y analizar artículos científicos.
 
-## Code scaffolding
+- **Interfaz intuitiva**  
+  Navegación sencilla y diseño amigable para investigadores.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 📷 Capturas de pantalla
 
-```bash
-ng generate component component-name
-```
+- Acceso a la aplicación  
+  ![Acceso](capturas/login.png)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- Panel principal  
+  ![Principal](capturas/principal.png)
 
-```bash
-ng generate --help
-```
+## 🛠️ Instalación y ejecución
 
-## Building
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/Apgonzlez1/SistemaWebRSL-IA.git
+   ```
 
-To build the project run:
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
 
-```bash
-ng build
-```
+3. Ejecuta el sistema:
+   ```bash
+   npm run start
+   ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+4. Accede desde tu navegador a [http://localhost:4200](http://localhost:4200)
 
-## Running unit tests
+## 👩‍💻 Credenciales de demostración
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+- **Usuario:** investigador@universidad.edu  
+- **Contraseña:** RevisionSistematica2024
 
-```bash
-ng test
-```
+## 📄 Licencia
 
-## Running end-to-end tests
+Este proyecto es de uso académico y experimental.
 
-For end-to-end (e2e) testing, run:
+---
 
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+*Desarrollado por Apgonzlez1 y colaboradores.*
